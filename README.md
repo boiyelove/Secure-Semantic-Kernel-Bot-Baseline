@@ -2,6 +2,19 @@
 
 Offer a production-minded Semantic Kernel chatbot baseline with identity, tool safety, privacy controls, and observability.
 
+## Project metadata
+
+The metadata below is derived from tracked source, manifests, and infrastructure
+files. It describes what this repository includes; live-service integration remains
+bounded by the documented deployment and validation limitations.
+
+| Category | Included |
+| --- | --- |
+| Platforms | Microsoft Azure; GitHub Actions |
+| Services and stack | Semantic Kernel; Azure OpenAI; App Service; Managed Identity; Application Insights |
+| Languages and formats | Python; Bicep; Bicep parameters; Bash; JSON; YAML |
+| Delivery and IaC | Bicep + `.bicepparam`; GitHub Actions CI; YAML configuration; Python validation/tests |
+
 ## Problem statement
 
 A tenant-scoped chat request is validated before a Semantic Kernel orchestration plan uses managed identity, private Azure OpenAI access, bounded tools, and redacted application telemetry.
