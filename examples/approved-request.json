@@ -1,0 +1,11 @@
+{
+  "tenantId": "tenant-a",
+  "correlationId": "rank-50-demo-001",
+  "target": "development",
+  "requestedAction": "plan_secure_semantic_kernel_bot_baseline",
+  "credentialMode": "workload_identity",
+  "publicNetworkAccess": false,
+  "evidenceFresh": true,
+  "approved": false,
+  "containsSecret": false
+}
